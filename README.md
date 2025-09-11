@@ -19,7 +19,7 @@ and receives `unitree_go::msg::dds::MotorStates_` messages from the `rt/inspire/
 
 ```mermaid
 graph LR
-A(user) --rt/inspire/cmd--> B(H1)
+A(user) --rt/inspire/cmd--> B(H1 or G1)
 B --rt/inspire/state--> A
 ```
 
